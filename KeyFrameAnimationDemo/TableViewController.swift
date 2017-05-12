@@ -17,11 +17,11 @@ class TableViewController: UITableViewController {
 
     // MARK: - Table view data source
     
-    private let titles: [String] = ["Background color", "Path"]
+    private let titles: [String] = ["Background color", "Path", "Emitter"]
     
     private var vcs: [UIViewController] {
         get {
-            return [BackgroundColorVC(), PathVC()]
+            return [BackgroundColorVC(), PathVC(), EmitterVC()]
         }
     }
     

@@ -15,7 +15,7 @@ class BackgroundColorVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Path"
+        title = "Color"
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Start", style: .plain, target: self, action: #selector(start))
         view.backgroundColor = .white
         
